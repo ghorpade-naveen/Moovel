@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979CEF2B213405830083F83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CEF2A213405830083F83A /* AppDelegate.swift */; };
+		979CEF2D213405830083F83A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CEF2C213405830083F83A /* ViewController.swift */; };
+		979CEF30213405830083F83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979CEF2E213405830083F83A /* Main.storyboard */; };
+		979CEF32213405850083F83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979CEF31213405850083F83A /* Assets.xcassets */; };
+		979CEF35213405850083F83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979CEF33213405850083F83A /* LaunchScreen.storyboard */; };
+		979CEF40213405850083F83A /* MoovelCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CEF3F213405850083F83A /* MoovelCCTests.swift */; };
+		979CEF4B213405850083F83A /* MoovelCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979CEF4A213405850083F83A /* MoovelCCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979CEF3C213405850083F83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979CEF1F213405830083F83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979CEF26213405830083F83A;
+			remoteInfo = MoovelCC;
+		};
+		979CEF47213405850083F83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979CEF1F213405830083F83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979CEF26213405830083F83A;
+			remoteInfo = MoovelCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979CEF27213405830083F83A /* MoovelCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoovelCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979CEF2A213405830083F83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979CEF2C213405830083F83A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979CEF2F213405830083F83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979CEF31213405850083F83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979CEF34213405850083F83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979CEF36213405850083F83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979CEF3B213405850083F83A /* MoovelCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoovelCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979CEF3F213405850083F83A /* MoovelCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoovelCCTests.swift; sourceTree = "<group>"; };
+		979CEF41213405850083F83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979CEF46213405850083F83A /* MoovelCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoovelCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979CEF4A213405850083F83A /* MoovelCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoovelCCUITests.swift; sourceTree = "<group>"; };
+		979CEF4C213405850083F83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979CEF24213405830083F83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF38213405850083F83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF43213405850083F83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979CEF1E213405830083F83A = {
+			isa = PBXGroup;
+			children = (
+				979CEF29213405830083F83A /* MoovelCC */,
+				979CEF3E213405850083F83A /* MoovelCCTests */,
+				979CEF49213405850083F83A /* MoovelCCUITests */,
+				979CEF28213405830083F83A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979CEF28213405830083F83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979CEF27213405830083F83A /* MoovelCC.app */,
+				979CEF3B213405850083F83A /* MoovelCCTests.xctest */,
+				979CEF46213405850083F83A /* MoovelCCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979CEF29213405830083F83A /* MoovelCC */ = {
+			isa = PBXGroup;
+			children = (
+				979CEF2A213405830083F83A /* AppDelegate.swift */,
+				979CEF2C213405830083F83A /* ViewController.swift */,
+				979CEF2E213405830083F83A /* Main.storyboard */,
+				979CEF31213405850083F83A /* Assets.xcassets */,
+				979CEF33213405850083F83A /* LaunchScreen.storyboard */,
+				979CEF36213405850083F83A /* Info.plist */,
+			);
+			path = MoovelCC;
+			sourceTree = "<group>";
+		};
+		979CEF3E213405850083F83A /* MoovelCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				979CEF3F213405850083F83A /* MoovelCCTests.swift */,
+				979CEF41213405850083F83A /* Info.plist */,
+			);
+			path = MoovelCCTests;
+			sourceTree = "<group>";
+		};
+		979CEF49213405850083F83A /* MoovelCCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979CEF4A213405850083F83A /* MoovelCCUITests.swift */,
+				979CEF4C213405850083F83A /* Info.plist */,
+			);
+			path = MoovelCCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979CEF26213405830083F83A /* MoovelCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979CEF4F213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCC" */;
+			buildPhases = (
+				979CEF23213405830083F83A /* Sources */,
+				979CEF24213405830083F83A /* Frameworks */,
+				979CEF25213405830083F83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoovelCC;
+			productName = MoovelCC;
+			productReference = 979CEF27213405830083F83A /* MoovelCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979CEF3A213405850083F83A /* MoovelCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979CEF52213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCCTests" */;
+			buildPhases = (
+				979CEF37213405850083F83A /* Sources */,
+				979CEF38213405850083F83A /* Frameworks */,
+				979CEF39213405850083F83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979CEF3D213405850083F83A /* PBXTargetDependency */,
+			);
+			name = MoovelCCTests;
+			productName = MoovelCCTests;
+			productReference = 979CEF3B213405850083F83A /* MoovelCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979CEF45213405850083F83A /* MoovelCCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979CEF55213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCCUITests" */;
+			buildPhases = (
+				979CEF42213405850083F83A /* Sources */,
+				979CEF43213405850083F83A /* Frameworks */,
+				979CEF44213405850083F83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979CEF48213405850083F83A /* PBXTargetDependency */,
+			);
+			name = MoovelCCUITests;
+			productName = MoovelCCUITests;
+			productReference = 979CEF46213405850083F83A /* MoovelCCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979CEF1F213405830083F83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					979CEF26213405830083F83A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					979CEF3A213405850083F83A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 979CEF26213405830083F83A;
+					};
+					979CEF45213405850083F83A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 979CEF26213405830083F83A;
+					};
+				};
+			};
+			buildConfigurationList = 979CEF22213405830083F83A /* Build configuration list for PBXProject "MoovelCC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979CEF1E213405830083F83A;
+			productRefGroup = 979CEF28213405830083F83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979CEF26213405830083F83A /* MoovelCC */,
+				979CEF3A213405850083F83A /* MoovelCCTests */,
+				979CEF45213405850083F83A /* MoovelCCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979CEF25213405830083F83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979CEF35213405850083F83A /* LaunchScreen.storyboard in Resources */,
+				979CEF32213405850083F83A /* Assets.xcassets in Resources */,
+				979CEF30213405830083F83A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF39213405850083F83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF44213405850083F83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979CEF23213405830083F83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979CEF2D213405830083F83A /* ViewController.swift in Sources */,
+				979CEF2B213405830083F83A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF37213405850083F83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979CEF40213405850083F83A /* MoovelCCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979CEF42213405850083F83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979CEF4B213405850083F83A /* MoovelCCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979CEF3D213405850083F83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979CEF26213405830083F83A /* MoovelCC */;
+			targetProxy = 979CEF3C213405850083F83A /* PBXContainerItemProxy */;
+		};
+		979CEF48213405850083F83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979CEF26213405830083F83A /* MoovelCC */;
+			targetProxy = 979CEF47213405850083F83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979CEF2E213405830083F83A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979CEF2F213405830083F83A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979CEF33213405850083F83A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979CEF34213405850083F83A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979CEF4D213405850083F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979CEF4E213405850083F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979CEF50213405850083F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979CEF51213405850083F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979CEF53213405850083F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoovelCC.app/MoovelCC";
+			};
+			name = Debug;
+		};
+		979CEF54213405850083F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoovelCC.app/MoovelCC";
+			};
+			name = Release;
+		};
+		979CEF56213405850083F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoovelCC;
+			};
+			name = Debug;
+		};
+		979CEF57213405850083F83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoovelCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.MoovelCCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoovelCC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979CEF22213405830083F83A /* Build configuration list for PBXProject "MoovelCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979CEF4D213405850083F83A /* Debug */,
+				979CEF4E213405850083F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979CEF4F213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979CEF50213405850083F83A /* Debug */,
+				979CEF51213405850083F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979CEF52213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979CEF53213405850083F83A /* Debug */,
+				979CEF54213405850083F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979CEF55213405850083F83A /* Build configuration list for PBXNativeTarget "MoovelCCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979CEF56213405850083F83A /* Debug */,
+				979CEF57213405850083F83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979CEF1F213405830083F83A /* Project object */;
+}
